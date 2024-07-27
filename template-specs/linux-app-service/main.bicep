@@ -18,6 +18,7 @@ var appServicePlanName = 'AppServicePlan-${appServiceAppName}'
 
 // This template spec is an example only.
 // It follows some, but not all, of the guidance described at https://docs.microsoft.com/azure/app-service/security-recommendations
+// hello! it's changed~
 
 resource appServicePlan 'Microsoft.Web/serverfarms@2021-02-01' = {
   name: appServicePlanName
